@@ -1,6 +1,5 @@
-void main()
-{
-  print("Rishi khandelwal");
-  var A = 50;
-  print(A);
+void main() {
+  print("Rishi");
+  var a = "khandelwal";
+  print(a);
 }

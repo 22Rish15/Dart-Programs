@@ -5,7 +5,7 @@ void main() {
   print("Subtraction:  ${a - b}");
   print("Multiplication:  ${a * b}");
   print("Division:  ${a / b}");
-  print("Division:  ${a / b}"); // it will return value in integer.
+  print("Division:  ${a / b}"); // it will return value in integer
   print("Modulus:  ${a % b}");
   print("Increment:  ${++a}");
   print("Decrement:  ${--b}");

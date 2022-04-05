@@ -1,5 +1,5 @@
 void main() {
-  var a = 10, b = 5;
+  var a = 10, b = 6;
   print("${a < b}");
   print("${a > b}");
   print("${a <= b}");
