@@ -1,0 +1,85 @@
+Dart :
+ 
+Data type :- It defines size and type of the data.
+
+Types :-  
+1. int (for no s.)
+2. double (for floating point no.)
+3. string (for alpha numeric value) (Are always represent in " " .)
+4. bool (for boolen type values - True / False)
+5. list (for large amount of data like array)
+6. map (for data in key and value format)
+
+Comments :- single (//)
+                     multi line (/*...............*/)
+
+Operators :-  Operators are used to performs operations b/w two or more operands
+In dart 6 types of operators:
+1. Arithmetic operator : Are used to perform arithmetic operations b/w two or more operands.
+2. Relation operator : Are used to check the relation (condition) b/w two or more operands.
+                                Are always return the boolean type result.(True / False)
+3. Logical operator
+4. Assignment operator
+5. Conditional operator
+6. Typeof / Type text operator : as , is and is!
+
+Loops :-  for(initialization;condition;updation)
+               {
+                      Statement.
+               }
+              for(int i=1;i<=3;i++)
+              {
+               print(i);
+              }  
+
+User input : First import dart standard input output library(import 'dart:io';)
+
+Function :- Fnx is a way to achieve any task in dart programming language. 
+                 Syntax - return_type name_of_fn(arguments if any)
+                              {
+
+                               } 
+
+OOPs :- It is  just a concept.
+Features: 
+1. Class: It is just a template , in other word class is a collections of variables , methods(functions) and constructors.
+2. Object: It is a real world entity.
+3. Inheritance
+4. Polymorphism
+5. Abstraction
+6. Encapsulation
+
+Constructor :- It is a special type of member funciton.
+It's name same as it's class name.
+It's have no any return type.
+You cannot call the constructor manually it will we call automatically at a time object creation.
+Types :-
+1. Default constructor
+2. Named constructor 
+   syntax: class_name.any_name()
+               {
+
+               }	
+3. Parameterized constructor
+
+Inheritance :- Is a way to resuse any code inside another code.
+Types:
+1. Single level Inh.
+2. Multi level Inh.
+3. Hierarchical Inh.
+4. Multiple Inh.(not supported by dart)
+5. Hybrid Inh.(not supported by dart)
+Note: If you want inherit any code inside another code so you must be used 'extends' keyword.
+
+Assignment_1 :- Print the table of 2.
+
+Assignment_2 :- Num is even or odd?
+
+Assignment_3 :- Value is  capital , small , number or symbol?
+
+Assignment_4 :- WAP to get input child age and if age is from 1 to 5, so print "go to counter number 1 for polio drop" 
+and if age is 5 and less than 10, so print "go to counter no.2 for vaccination"
+and if age greater than 10 and less than 15, so output is "go to counter no.3 for vitamins and minerals" 
+and if age is greater than 15 then output is "invalid".
+
+Assignment_5 :- WAP to write a story till the user cannot type 'stop' . if user type 'stop' then program will end.
