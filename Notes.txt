@@ -45,7 +45,7 @@ Features:
 1. Class: It is just a template , in other word class is a collections of variables , methods(functions) and constructors.
 2. Object: It is a real world entity.
 3. Inheritance
-4. Polymorphism
+4. Polymorphism 
 5. Abstraction
 6. Encapsulation
 
@@ -71,6 +71,24 @@ Types:
 5. Hybrid Inh.(not supported by dart)
 Note: If you want inherit any code inside another code so you must be used 'extends' keyword.
 
+Polymorphism : Polymorphism are contains two words : 'Poly' means "many" and 'morphism' means "form".
+Function overriding are represent the Polymorphism concept in dart.
+Function overriding : If you want to achieve fun overriding concept so you must be follow some rules :
+1. Fun name must be same in both class.
+2. Return type are also same.
+3. And parameters are also same as parent class function.
+4. overriding are always perform in case of Inheritance.
+
+Abstraction : Abstraction are used to hide the complexity and show the functionality of code.
+1. If you want to achieve the functionality of Abstraction so you must be use 'abstract' keyword.
+2. It is always used with class.
+3. In case of abstract class you don't need to provide function body (define).
+
+List : List is the collections of objects.
+Types : 
+1. Sized List
+2. Dymanic List
+
 Assignment_1 :- Print the table of 2.
 
 Assignment_2 :- Num is even or odd?
@@ -83,3 +101,5 @@ and if age greater than 10 and less than 15, so output is "go to counter no.3 fo
 and if age is greater than 15 then output is "invalid".
 
 Assignment_5 :- WAP to write a story till the user cannot type 'stop' . if user type 'stop' then program will end.
+
+Assignment_6 :- WAP to get input 5 students details and print it. 
