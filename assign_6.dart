@@ -1,10 +1,7 @@
 import 'dart:io';
 
 class Special {
-  void value() {
-    print("Enter any value:");
-    var str = stdin.readLineSync()!;
-    int val = str.codeUnitAt(0);
+  void value(val) {
     if (val >= 65 && val <= 90) {
       print("Capital letter.");
     } else if (val >= 97 && val <= 122) {
@@ -20,6 +17,9 @@ class Special {
 }
 
 void main() {
+  print("Enter any value:");
+  var str = stdin.readLineSync()!;
+  int val1 = str.codeUnitAt(0);
   var obj = new Special();
-  obj.value();
+  obj.value(val1);
 }
