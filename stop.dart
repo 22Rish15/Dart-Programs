@@ -1,4 +1,5 @@
-/*
+//WAP to write a story till the user cannot type 'stop' . if user type 'stop' then program will end.
+
 import 'dart:io';
 
 void main() {
@@ -10,8 +11,9 @@ void main() {
     }
   }
 }
-*/
 
+
+/*
 import 'dart:io';
 
 class Story {
@@ -32,3 +34,4 @@ void main() {
   var obj = new Story();
   obj.stop();
 }
+*/

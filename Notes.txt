@@ -87,7 +87,9 @@ Abstraction : Abstraction are used to hide the complexity and show the functiona
 List : List is the collections of objects.
 Types : 
 1. Sized List
-2. Dymanic List
+2. Dymanic List : In case of dyanamic list , we don't need to provide the length of list.
+
+Map : Map are always store data into key and value format.
 
 Assignment_1 :- Print the table of 2.
 
@@ -103,3 +105,5 @@ and if age is greater than 15 then output is "invalid".
 Assignment_5 :- WAP to write a story till the user cannot type 'stop' . if user type 'stop' then program will end.
 
 Assignment_6 :- WAP to get input 5 students details and print it. 
+
+Assignment_7 :- WAP to define any list and get input ids and search one id.
